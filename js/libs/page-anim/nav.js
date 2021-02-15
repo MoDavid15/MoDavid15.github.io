@@ -35,6 +35,8 @@ var nav = (function(){
                     "algorithms",
                     "the web",
                     "architectures",
+                    "opengl",
+                    "webgl",
                 ],
             },
             {

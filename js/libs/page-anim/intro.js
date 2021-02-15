@@ -29,6 +29,9 @@ var intro = (function(){
         this.head.title.content = document.getElementsByClassName("intro-panel-title")[0];
         this.head.body.content = document.getElementsByClassName("intro-panel-body-content")[0];
         this.body.content = document.getElementsByClassName("content")[0];
+
+        this.head.title.content.style.display = "block";
+        this.head.body.content.style.display = "block";
     }
 
     // Animates the intro panel

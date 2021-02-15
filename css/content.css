@@ -20,6 +20,7 @@
 .intro-panel-title {
     position: absolute;
     top: 30%; left: 50%;
+    display: none;
     width: 100vw; height: 40vh;
 
     font-size: 2.4vw;
@@ -54,6 +55,10 @@
     line-height: 1.5;
 
     transform: translateX(-50%);
+}
+
+.intro-panel-body-content {
+    display: none;
 }
 
 /* General panels */
