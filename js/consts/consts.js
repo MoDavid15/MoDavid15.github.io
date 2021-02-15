@@ -1,5 +1,5 @@
 // Parent path
-const PARENT_PATH = "/home/modavid/Documents/Website/";
+const PARENT_PATH = "http://modavid.github.io/";
 
 // Screen stuff
 var SCREEN_WIDTH = window.innerWidth;
