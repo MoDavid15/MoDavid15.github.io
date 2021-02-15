@@ -1,0 +1,70 @@
+/* Footer */
+.footer {
+    position: fixed;
+    bottom: 0; left: 0;
+    width: 100vw; height: 15vh;
+}
+
+.footer-buttons {
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 30%; height: 100%;
+
+    text-align: center;
+    font-size: 4vw;
+    color: white;
+
+    transform: translate(-50%, -50%);
+}
+
+.footer-buttons-prev {
+    position: absolute;
+    top: 0; left: 0;
+    display: inline-block;
+    width: 50%; height: 100%;
+
+    text-shadow: 0 0 12px rgb(255, 255, 255, 0.2),
+        -15px 0 18px rgb(255, 255, 255, 0.2);
+
+    transform: rotate(-90deg);
+    transition: 0.3s;
+}
+
+.footer-buttons-next {
+    position: absolute;
+    top: 0; right: 0;
+    display: inline-block;
+    width: 50%; height: 100%;
+
+    text-shadow: 0 0 12px rgb(255, 255, 255, 0.2),
+        15px 0 18px rgb(255, 255, 255, 0.2);
+
+    transform: rotate(90deg);
+    transition: 0.3s;
+}
+
+.footer-buttons-counter {
+    padding-top: 3vw;
+
+    font-size: 1.5vw;
+    text-shadow: 0 0 12px rgb(255, 255, 255, 0.2),
+        0 15px 18px rgb(255, 255, 255, 0.2);
+
+    z-index: -1;
+}
+
+.footer-buttons-prev:hover {
+    text-shadow: 5px 0 12px rgb(90, 70, 255, 0.3),
+        -10px 0 18px rgb(90, 70, 255, 0.3);
+    color: rgb(90, 70, 255);
+
+    cursor: pointer;
+}
+
+.footer-buttons-next:hover {
+    text-shadow: -5px 0 12px rgb(90, 70, 255, 0.3),
+        10px 0 18px rgb(90, 70, 255, 0.3);
+    color: rgb(90, 70, 255);
+
+    cursor: pointer;
+}

@@ -1,0 +1,116 @@
+/* Traditional colors */
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+.white-shadow {
+    text-shadow: 0 0 12px rgb(255, 255, 255, 0.2),
+        0 15px 18px rgb(255, 255, 255, 0.2);
+}
+
+.black-shadow {
+    text-shadow: 0 0 12px rgb(0, 0, 0, 0.2),
+        0 15px 18px rgb(0, 0, 0, 0.2);
+}
+
+/* The neo color set */
+.neo-bg-pink {
+    background-color: rgb(35, 41, 51);
+}
+
+.neo-bg-green {
+    background-color: rgb(25, 26, 27);
+}
+
+.neo-bg-yellow {
+    background-color: rgb(50, 52, 55);
+}
+
+.neo-bg-purple {
+    background-color: rgb(40, 41, 54);
+}
+
+.neo-bg-red {
+    background-color: rgb(35, 35, 35);
+}
+
+.neo-bg-pwhite {
+    background-color: rgb(17, 72, 131);
+}
+
+.neo-pink {
+    color: rgb(236, 76, 86);
+}
+
+.neo-green {
+    color: rgb(0, 206, 124);
+}
+
+.neo-yellow {
+    color: rgb(226, 183, 19);
+}
+
+.neo-purple {
+    color: rgb(189, 147, 249);
+}
+
+.neo-red {
+    color: rgb(216, 41, 52);
+}
+
+.neo-pwhite {
+    color: rgb(215, 220, 218);
+}
+
+.neo-gray {
+    color: rgb(110, 110, 110);
+}
+
+.neo-pink-shadow {
+    text-shadow: 0 0 12px rgb(236, 76, 86, 0.2),
+        0 15px 18px rgb(236, 76, 86, 0.2);
+}
+
+.neo-green-shadow {
+    text-shadow: 0 0 12px rgb(0, 206, 124, 0.2),
+        0 15px 18px rgb(0, 206, 124, 0.2);
+}
+
+.neo-yellow-shadow {
+    text-shadow: 0 0 12px rgb(226, 183, 19, 0.2),
+        0 15px 18px rgb(226, 183, 19, 0.2);
+}
+
+.neo-purple-shadow {
+    text-shadow: 0 0 12px rgb(189, 147, 249, 0.2),
+        0 15px 18px rgb(189, 147, 249, 0.2);
+}
+
+.neo-red-shadow {
+    text-shadow: 0 0 12px rgb(216, 41, 52, 0.2),
+        0 15px 18px rgb(216, 41, 52, 0.2);
+}
+
+.neo-pwhite-shadow {
+    text-shadow: 0 0 12px rgb(215, 220, 218, 0.2),
+        0 15px 18px rgb(215, 220, 218, 0.2);
+}
+
+.neo-gray-shadow {
+    text-shadow: 0 0 12px rgb(110, 110, 110, 0.2),
+        0 15px 18px rgb(110, 110, 110, 0.2);
+}
+
+/* Highlighting and focusing */
+.high-blue {
+    color: rgb(90, 70, 255);
+}
+
+.high-blue-shadow {
+    text-shadow: 0 0 12px rgb(90, 70, 255, 0.2),
+        0 15px 18px rgb(90, 70, 255, 0.2);
+}

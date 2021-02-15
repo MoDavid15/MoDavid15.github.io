@@ -1,0 +1,109 @@
+/* Content styling */
+.content {
+    background-color: white;
+}
+
+.content-headfiller {
+    width: 100vw; height: 10vh;
+}
+
+/* > Content panels */
+.content-panel {
+    padding-top: 10vh;
+    width: 100vw; height: 100vh;
+
+    filter: blur(0);
+    overflow: hidden;
+}
+
+/* > Intro panel */
+.intro-panel-title {
+    position: absolute;
+    top: 30%; left: 50%;
+    width: 100vw; height: 40vh;
+
+    font-size: 2.4vw;
+
+    transform: translate(-50%, -50%);
+}
+
+.intro-panel-title-text {
+    padding-left: 15vw;
+    display: inline-block;
+    width: 70vw;
+
+    text-align: left;
+}
+
+.intro-panel-title-icon {
+    margin-left: -10vw;
+    display: inline-block;
+    width: 30vw;
+
+    font-size: 5.4vw;
+    text-align: left;
+}
+
+.intro-panel-body {
+    position: absolute;
+    padding-left: 17vw; padding-right: 17vw;
+    top: 40%; left: 50%;
+    width: 100vw; height: auto;
+
+    font-size: 2.7vw;
+    line-height: 1.5;
+
+    transform: translateX(-50%);
+}
+
+/* General panels */
+.chapter-panel-title {
+    position: absolute;
+    top: 30%; left: 40%;
+    width: 100vw; height: 40vh;
+
+    font-size: 2.4vw;
+
+    transform: translate(-50%, -50%);
+}
+
+.chapter-panel-subtitle {
+    position: absolute;
+    top: 30%; left: 40%;
+    width: 100vw; height: 40vh;
+
+    font-size: 2.4vw;
+
+    transform: translate(-50%, -50%);
+}
+
+.chapter-panel-title-text {
+    padding-left: 15vw;
+    display: inline-block;
+    width: 100vw;
+
+    text-align: left;
+}
+
+.chapter-panel-subtitle-text {
+    padding-left: 18vw; padding-top: 1vh;
+    display: inline-block;
+    width: 100vw;
+
+    font-size: 1vw;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.chapter-panel-body {
+    position: absolute;
+    padding-left: 7vw; padding-right: 7vw;
+    top: 28%; left: 50%;
+    width: 100vw; height: auto;
+
+    font-size: 2vw;
+    line-height: 1.5;
+    text-indent: 4vw;
+
+    transform: translateX(-50%);
+}
